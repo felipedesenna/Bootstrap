@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+	<meta name="author" content="Felipe Senna" />    
+    <title>Mark II - CMS</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="all" />
+    <link href="../css/font-awesome.min.css" rel="stylesheet" media="all" />
+    <link href="../css/pages.css" rel="stylesheet" media="all" />   
+    <link href="../css/cms.css" rel="stylesheet" media="all" />  
+            
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>    
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Logomarca</a>
+        </div>        
+      </div>
+    </nav>
+    
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-xs-12">
+                <div class="formlogin">
+                    <h2>Efetue Login</h2>
+                    
+                    <form>
+                        <label class="sr-only" for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" class="form-control input-lg" placeholder="Seu E-mail" required="" />
+                        
+                        <label class="sr-only" for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" class="form-control input-lg" placeholder="Sua Senha" required="" />
+                        
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="1" />Lembre-me
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Login</button>                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
